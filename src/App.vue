@@ -1,11 +1,12 @@
 <template>
-  <div id="app"></div>
+  <div id="app"><SimonSay /></div>
 </template>
 
 <script>
+import SimonSay from "@/components/SimonSay.vue";
 export default {
   name: "App",
-  components: {},
+  components: { SimonSay },
 };
 </script>
 
